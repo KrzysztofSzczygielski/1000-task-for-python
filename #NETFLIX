@@ -1,0 +1,192 @@
+from turtle import*
+# cz. 1 litera N
+
+bgcolor('black')
+
+right (90)
+pos = [(-600,100),(-520,100)]
+for x,y in pos:
+    up()
+    goto(x,y)
+    down()
+    fillcolor('red')
+    begin_fill()
+    for i in range (2):
+        forward (200)
+        left (90)
+        forward(40)
+        left(90)
+    end_fill()
+up()
+goto(-600,100)
+down()
+left(22)
+begin_fill()
+for i in range(2):
+    forward(217)
+    left(68)
+    forward(40)
+    left(112)
+end_fill()
+right(22)
+
+# cz.2 literka E
+
+
+ #odstęp między literami powinien być 100 zaś odstęp między ... winien być 80
+
+pos = [(-420,100)]
+# right(90)
+for x,y in pos:
+    up()
+    goto(x,y)
+    down()
+    fillcolor('red')
+    begin_fill()
+    forward (200)
+    left (90)
+    forward(120)
+    left(90)
+    forward(40)
+    left(90)
+    forward(80)
+    right(90)
+    forward(40)
+    right(90)
+    forward(80)
+    left(90)
+    forward(40)
+    left(90)
+    forward(80)
+    right(90)
+    forward(40)
+    right(90)
+    forward(80)
+    left(90)
+    forward(40)
+    left(90)
+    forward(120)
+    end_fill()
+left(90)
+
+# cz.2 literka T
+pos = [(-240,100)]
+for x,y in pos:
+    up()
+    goto(x,y)
+    down()
+    fillcolor('red')
+    begin_fill()
+    forward(40)
+    left(90)
+    forward(40)
+    right(90)
+    forward(160)
+    left(90)
+    forward(40)
+    left(90)
+    forward(160)
+    right(90)
+    forward(40)
+    left(90)
+    forward(40)
+    left(90)
+    forward(120)
+    end_fill()
+left(90)
+# cz.3 literka F
+pos = [(-60,100)]
+for x,y in pos:
+    up()
+    goto(x,y)
+    down()
+    fillcolor('red')
+    begin_fill()
+    forward(200)
+    left(90)
+    forward(40)
+    left(90)
+    forward(80)
+    right(90)
+    forward(80)
+    left(90)
+    forward(40)
+    left(90)
+    forward(80)
+    right(90)
+    forward(40)
+    right(90)
+    forward(80)
+    left(90)
+    forward(40)
+    left(90)
+    forward(120)
+    end_fill()
+left(90)
+# cz.4 literka L
+
+pos = [(120,100)]
+for x,y in pos:
+    up()
+    goto(x,y)
+    down()
+    fillcolor('red')
+    begin_fill()
+    forward(200)
+    left(90)
+    forward(120)
+    left(90)
+    forward(40)
+    left(90)
+    forward(80)
+    right(90)
+    forward(160)
+    left(90)
+    forward(40)
+    end_fill()
+left(90)
+# cz.5 literka I
+
+pos = [(300,100)]
+for x,y in pos:
+    up()
+    goto(x,y)
+    down()
+    fillcolor('red')
+    begin_fill()
+    forward(200)
+    left(90)
+    forward(40)
+    left(90)
+    forward(200)
+    left(90)
+    forward(40)
+    end_fill()
+left(90)
+# cz.6 literka X
+
+# pos = [(400,100)]
+
+up()
+goto(400,100)
+down()
+left(22)
+begin_fill()
+for i in range(2):
+    forward(217)
+    left(68)
+    forward(40)
+    left(112)
+end_fill()
+right(22)
+up()
+goto(520,100)
+down()
+right(22)
+begin_fill()
+for i in range(2):
+    forward(217)
+    right(68)
+    forward(40)
+    right(112)
+end_fill()
